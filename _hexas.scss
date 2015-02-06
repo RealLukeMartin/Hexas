@@ -6,7 +6,7 @@
 		@when edit {
 			&:before { content: "\270E"; }
 		}
-	    @when delete {
+		@when delete {
 			&:before { content: "\2718"; }
 		}
 		@when save {
