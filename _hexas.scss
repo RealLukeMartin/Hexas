@@ -1,0 +1,16 @@
+@mixin hexas-forms($sym) {
+	@switch $sym {
+		@when add {
+			&:before { content: "\271A"; }
+		}
+		@when edit {
+			&:before { content: "\270E"; }
+		}
+	    @when delete {
+			&:before { content: "\2718"; }
+		}
+		@when save {
+			&:before { content: "\2714"; }
+		}
+	}
+}
